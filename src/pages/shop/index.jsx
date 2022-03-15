@@ -11,7 +11,7 @@ const Shop = () => {
 
   return (
     <Vitrine>
-      {productsList.map((product) => {
+      {productsList.map((product, index) => {
         return <Product product={product} addFunc={()=> setProductsCart([...productsCart, product ])} />;
       })}
     </Vitrine>

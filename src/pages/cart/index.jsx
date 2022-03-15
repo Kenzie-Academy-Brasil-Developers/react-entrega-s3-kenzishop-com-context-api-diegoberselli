@@ -13,7 +13,7 @@ const Cart = () => {
   return (
     <>
       <Vitrine>
-        {productsCart.map((product) => {
+        {productsCart.map((product, index) => {
           return (
             <ProductCart
               product={product}

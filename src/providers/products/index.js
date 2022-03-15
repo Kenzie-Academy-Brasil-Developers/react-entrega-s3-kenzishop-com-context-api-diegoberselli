@@ -3,7 +3,7 @@ import { useState, createContext } from "react";
 export const ProductsContext = createContext();
 
 export const ProductsProvider = ({ children }) => {
-  const [productsList, setProducts] = useState([
+  const [productsList] = useState([
     {
         id: 1,
         name: "Box Pocket Luxo De O Senhor Dos Anéis - 1ª Ed.",
